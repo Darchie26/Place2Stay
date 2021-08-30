@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "place2staye6200fba": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

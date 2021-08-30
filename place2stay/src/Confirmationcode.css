@@ -1,0 +1,84 @@
+.confirmationCode {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    animation: animate 30s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        background-image: url("./img/BahamasPic.jpg");
+    }
+    25% {
+        background-image: url("./img/nightresort.jpg");
+    }
+    50% {
+        background-image: url("./img/hotel.jpg");
+    }
+    75% {
+        background-image: url("./img/waterresort.jpg");
+    }
+    100% {
+        background-image: url("./img/junglehotel.jpg");
+    }
+}
+
+.confirmation-Form {
+    height: 90vh;
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.925;
+    border-radius: 100px;
+}
+
+.inputs2 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ff5900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff7200;
+}
+
+.signup {
+    font-size: 12px;
+}
+
+#p2s {
+    font-family: 'CInzel';
+}
+
+#code {
+    font-family: "Cinzel";
+    font-size: 20px;
+}

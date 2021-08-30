@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-place2stay-dev-13825-authRole",
+      "UnauthRoleArn": "arn:aws:iam::888083845172:role/amplify-place2stay-dev-13825-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::888083845172:role/amplify-place2stay-dev-13825-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-place2stay-dev-13825-deployment",
+      "UnauthRoleName": "amplify-place2stay-dev-13825-unauthRole",
+      "StackName": "amplify-place2stay-dev-13825",
+      "StackId": "arn:aws:cloudformation:us-east-1:888083845172:stack/amplify-place2stay-dev-13825/a08f4dc0-a651-11eb-9e5e-0e1d2f412171",
+      "AmplifyAppId": "d38di5qpytt9e"
+    },
+    "categories": {
+      "auth": {
+        "place2staye6200fba": {}
+      }
+    }
+  }
+}

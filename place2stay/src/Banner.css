@@ -1,0 +1,23 @@
+.Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: sticky;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/clone-c2351.appspot.com/o/resortview.jpg?alt=media&token=8a732baa-d61c-417e-ae34-23a592fa4ee6");
+    background-size: cover;
+    opacity: 0.8;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+
+.search-Button {
+    background-color: white !important;
+    color: #ff5900 !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    
+}
